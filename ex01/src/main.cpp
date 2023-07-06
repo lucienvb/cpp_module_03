@@ -1,14 +1,17 @@
 #include <ClapTrap.hpp>
+#include <ScavTrap.hpp>
 
 int	main(void) {
-	ClapTrap	Jan("Jan");
+	ScavTrap	Jan("Jan");
 
 	Jan.takeDamage(5);
 	Jan.takeDamage(3);
+	Jan.attack("Han");
 	Jan.logHitPoints();
 	Jan.beRepaired(4);
 	Jan.logEnergyPoints();
 	Jan.logHitPoints();
+	Jan.guardGate();
 
 	return (0);
 }
