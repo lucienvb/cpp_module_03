@@ -15,15 +15,19 @@ public:
 	ClapTrap& operator=(const ClapTrap& other);
 
 	void	attack(const std::string& target);
+	void	takeDamage(unsigned int amount);
+	void	beRepaired(unsigned int amount);
+
 	void	logEnergyPoints(void);
+	void	logHitPoints(void);
 
 	~ClapTrap();
 
 private:
 	std::string	_name;
-	uint64_t	_hitPoints;
-	uint64_t	_energyPoints;
-	uint64_t	_attackDamage;
+	int 		_hitPoints;
+	int 		_energyPoints;
+	int 		_attackDamage;
 };
 
 #endif

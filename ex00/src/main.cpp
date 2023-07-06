@@ -3,18 +3,12 @@
 int	main(void) {
 	ClapTrap	Jan("Jan");
 
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
-	Jan.attack("Han");
+	Jan.takeDamage(5);
+	Jan.takeDamage(3);
+	Jan.logHitPoints();
+	Jan.beRepaired(4);
 	Jan.logEnergyPoints();
+	Jan.logHitPoints();
 
 	return (0);
 }
