@@ -12,6 +12,6 @@ int	main(void) {
 	Jan.logEnergyPoints();
 	Jan.logHitPoints();
 	Jan.guardGate();
-
+//	system("leaks scav");
 	return (0);
 }
