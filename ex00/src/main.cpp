@@ -11,6 +11,7 @@ int	main(void) {
 	Jan.logHitPoints();
 	Jan.attack("Piet");
 	Jan.logEnergyPoints();
+//	system("leaks clap");
 
 	return (0);
 }
