@@ -13,6 +13,6 @@ int	main(void) {
 	Jan.logEnergyPoints();
 	Jan.logHitPoints();
 	Jan.highFivesGuys();
-//	system("leaks scav");
+//	system("leaks frag");
 	return (0);
 }
