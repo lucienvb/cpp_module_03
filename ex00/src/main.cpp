@@ -9,6 +9,8 @@ int	main(void) {
 	Jan.beRepaired(4);
 	Jan.logEnergyPoints();
 	Jan.logHitPoints();
+	Jan.attack("Piet");
+	Jan.logEnergyPoints();
 
 	return (0);
 }
