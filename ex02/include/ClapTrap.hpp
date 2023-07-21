@@ -2,7 +2,7 @@
 #define CLAPTRAP_HPP
 
 // DEFINES
-#define MESSAGE 0
+#define MESSAGE 1
 
 // INCLUDES
 #include <iostream>
